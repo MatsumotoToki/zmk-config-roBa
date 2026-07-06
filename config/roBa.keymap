@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT                                &kp AMPERSAND  &kp SQT         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&trans           &trans             &trans    &trans      &trans       &trans      &kp LESS_THAN     &kp GRAVE      &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp TILDE              &kp PIPE
-&trans           &trans             &trans    &trans      &trans       &trans      &kp GREATER_THAN  &kp SEMICOLON  &kp COLON       &kp QUESTION          &kp UNDERSCORE         &trans
-&trans           &trans             &trans    &trans      &trans       &trans      &trans            &trans                                                                      &trans
+&kp EXCLAMATION  &kp LS(NUMBER_2)  &kp HASH  &kp DOLLAR  &kp PERCENT                                &kp LS(NUMBER_6)  &kp RS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp EQUAL
+&trans           &trans            &trans    &trans      &trans       &trans      &kp LESS_THAN     &kp GRAVE         &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp TILDE         &kp PIPE
+&trans           &trans            &trans    &trans      &trans       &trans      &kp GREATER_THAN  &kp SEMICOLON     &kp COLON         &kp QUESTION      &kp UNDERSCORE    &trans
+&trans           &trans            &trans    &trans      &trans       &trans      &trans            &trans                                                                  &trans
             >;
         };
 
@@ -120,10 +120,10 @@
 
         MOUSE {
             bindings = <
-&kp EXCLAMATION  &kp ASTERISK  &kp HASH  &kp DOLLAR  &kp PERCENT                                           &kp SQT        &kp COLON  &kp RIGHT_PARENTHESIS  &trans     &kp LCTRL
-&trans           &trans        &trans    &trans      &trans       &kp DOUBLE_QUOTES      &kp LESS_THAN     &trans         &kp GRAVE  &kp LEFT_BRACE         &trans     &kp RIGHT_BRACE
-&trans           &trans        &trans    &trans      &trans       &trans                 &kp GREATER_THAN  &kp SEMICOLON  &kp PLUS   &kp QUESTION           &kp EQUAL  &trans
-&trans           &trans        &trans    &trans      &trans       &trans                 &trans            &trans                                                      &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT                                &kp AMPERSAND  &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LCTRL
+&trans           &trans             &trans    &trans      &trans       &trans      &kp LESS_THAN     &trans         &kp GRAVE  &kp LEFT_BRACE        &trans                 &kp RIGHT_BRACE
+&trans           &trans             &trans    &trans      &trans       &trans      &kp GREATER_THAN  &kp SEMICOLON  &kp PLUS   &kp QUESTION          &kp EQUAL              &trans
+&trans           &trans             &trans    &trans      &trans       &trans      &trans            &trans                                                                 &trans
             >;
         };
 
