@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)      &trans                                  &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END       &trans      &kp SLASH     &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &bt BT_SEL 0     &bt BT_SEL 1  &trans      &kp ASTERISK  &kp NUMBER_0  &kp N1        &kp N2        &kp NUMBER_3  &trans
-&trans          &trans                  &trans          &trans           &trans        &trans      &kp TAB       &kp ENTER                                               &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)      &trans                                       &kp MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp UNDER
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END       &trans      &kp SLASH          &kp COLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &bt BT_SEL 0     &bt BT_SEL 1  &trans      &kp DOUBLE_QUOTES  &kp NUMBER_0  &kp N1        &kp N2        &kp NUMBER_3  &trans
+&trans          &trans                  &trans          &trans           &trans        &trans      &kp TAB            &kp ENTER                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -120,10 +120,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&kp EXCLAMATION  &kp ASTERISK  &kp HASH  &kp DOLLAR  &kp PERCENT                                           &kp SQT        &kp COLON  &kp RIGHT_PARENTHESIS  &trans     &kp LCTRL
+&trans           &trans        &trans    &trans      &trans       &kp DOUBLE_QUOTES      &kp LESS_THAN     &trans         &kp GRAVE  &kp LEFT_BRACE         &trans     &kp RIGHT_BRACE
+&trans           &trans        &trans    &trans      &trans       &trans                 &kp GREATER_THAN  &kp SEMICOLON  &kp PLUS   &kp QUESTION           &kp EQUAL  &trans
+&trans           &trans        &trans    &trans      &trans       &trans                 &trans            &trans                                                      &trans
             >;
         };
 
