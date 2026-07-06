@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp LS(NUMBER_2)  &kp HASH   &kp DOLLAR  &kp PERCENT                                &kp LS(NUMBER_6)  &kp RS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp UNDER
-&kp RIGHT_BRACE  &kp PIPE          &kp COLON  &trans      &trans       &trans      &kp LESS_THAN     &kp GRAVE         &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp TILDE         &kp PIPE
-&trans           &trans            &trans     &trans      &trans       &trans      &kp GREATER_THAN  &kp SEMICOLON     &kp COLON         &kp QUESTION      &kp UNDERSCORE    &trans
-&trans           &trans            &trans     &trans      &trans       &trans      &trans            &trans                                                                  &trans
+&kp EXCLAMATION  &kp LS(NUMBER_2)  &kp HASH               &kp DOLLAR     &kp PERCENT                                  &kp LS(NUMBER_6)  &kp RS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp UNDER
+&kp RIGHT_BRACE  &kp PIPE          &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON      &trans  &trans            &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp TILDE         &kp PIPE
+&trans           &trans            &trans                 &trans         &trans            &trans             &trans  &trans            &kp COLON         &kp QUESTION      &kp UNDERSCORE    &trans
+&trans           &trans            &trans                 &trans         &trans            &trans             &trans  &trans                                                                  &trans
             >;
         };
 
@@ -120,10 +120,10 @@
 
         MOUSE {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR  &kp PERCENT                                &kp AMPERSAND  &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&kp LEFT_BRACE   &kp RIGHT_BRACE    &kp COLON  &trans      &trans       &trans      &kp LESS_THAN     &trans         &kp GRAVE  &kp LEFT_BRACE        &trans                 &kp RIGHT_BRACE
-&trans           &trans             &trans     &trans      &trans       &trans      &kp GREATER_THAN  &kp SEMICOLON  &kp PLUS   &kp QUESTION          &kp EQUAL              &trans
-&trans           &trans             &trans     &trans      &trans       &trans      &trans            &trans                                                                 &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR     &kp PERCENT                                  &kp AMPERSAND  &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
+&kp LEFT_BRACE   &kp RIGHT_BRACE    &kp COLON  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMICOLON      &trans  &trans         &kp GRAVE  &kp LEFT_BRACE        &trans                 &kp RIGHT_BRACE
+&trans           &trans             &trans     &trans         &trans            &trans             &trans  &trans         &kp PLUS   &kp QUESTION          &kp EQUAL              &trans
+&trans           &trans             &trans     &trans         &trans            &trans             &trans  &trans                                                                 &trans
             >;
         };
 
